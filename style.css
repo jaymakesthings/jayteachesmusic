@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant:200,400,600');
+
+body {
+  background: #eee;
+}
+
+header {
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 5em;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+header p {
+  font-size: 0.83em;
+  margin-bottom: 3em;
+}
+
+header nav {
+  display: inline;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  margin: 2.4em;
+}
