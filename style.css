@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant:200,400,600');
 
+html {
+  min-height: 100vh;
+  position: relative;
+}
+
 body {
-  background: #fff;
+  background: #eee;
+  font-family: 'Assistant', sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 header {
+  background: #fff;
   font-family: 'Assistant', sans-serif;
-  margin-top: 1em;
   padding: 1em;
+  padding-top: 2em;
   text-align: center;
 }
 
@@ -25,8 +33,8 @@ header p {
 }
 
 #selected {
-  border-top: 2px solid #f00;
-  border-bottom: 2px solid #f00;
+  border-top: 2px solid #2B547E;
+  border-bottom: 2px solid #2B547E;
 }
 
 header nav {
@@ -39,14 +47,22 @@ header nav {
   width: 3em;
 }
 
-header a {
-  color: #f00;
+a {
+  color: #2B547E;
   text-decoration: none;
 }
 
 main {
   background: #eee;
-  font-family: 'Assistant', sans-serif;
   margin: 0 auto;
-  padding: 5em 20%;
+  padding: 2em 20% 5em;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  font-size: 0.7em;
+  padding: 0.5em;
+  text-align: center;
+  width: 100%;
 }
