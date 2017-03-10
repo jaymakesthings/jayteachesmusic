@@ -24,9 +24,12 @@ header p {
   margin-bottom: 3em;
 }
 
+#selected {
+  border-top: 2px solid #f00;
+  border-bottom: 2px solid #f00;
+}
+
 header nav {
-  border-top: 1px solid #f00;
-  border-bottom: 1px solid #f00;
   display: inline;
   font-family: 'Assistant', sans-serif;
   font-size: 1.4em;
@@ -37,7 +40,7 @@ header nav {
 }
 
 header a {
-  color: #000;
+  color: #f00;
   text-decoration: none;
 }
 
